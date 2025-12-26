@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "250792908242",
+    "project_id": "lalamu2-722d0",
+    "storage_bucket": "lalamu2-722d0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250792908242:android:b28191dbfd5d9555bda40b",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgXHNtzpb-W8UdXNyKV7BSBMJWwKnf6VE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
