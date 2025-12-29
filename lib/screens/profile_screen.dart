@@ -190,8 +190,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
                               // 2. Update Auth
                               await user.updateDisplayName(newFullName);
-                              if (newAvatar.isNotEmpty)
+                              if (newAvatar.isNotEmpty) {
                                 await user.updatePhotoURL(newAvatar);
+                              }
 
                               // 3. Update UI Local
                               if (mounted) {
@@ -329,8 +330,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                           },
                                       loadingBuilder:
                                           (context, child, loadingProgress) {
-                                            if (loadingProgress == null)
+                                            if (loadingProgress == null) {
                                               return child;
+                                            }
                                             return Center(
                                               child: CircularProgressIndicator(
                                                 value:

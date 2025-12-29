@@ -125,8 +125,9 @@ class LeaderboardScreen extends StatelessWidget {
 
                             // Validasi: Hanya tampilkan jika user punya skor di latihan ini
                             // (Meskipun orderBy biasanya otomatis filter field yg null)
-                            if (!data.containsKey(scoreField))
+                            if (!data.containsKey(scoreField)) {
                               return const SizedBox.shrink();
+                            }
 
                             return _buildRankItem(index + 1, data, scoreField);
                           },
